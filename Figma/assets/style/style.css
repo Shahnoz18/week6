@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: GULAG;
+    src:url(/Figma/assets/fonts/GULAG\ Pavljenko.otf)
+}
+@font-face {
+    font-family: Intro;
+    src:url(/Figma/assets/fonts/Intro.otf)
+}
+@font-face {
+    font-family: Inin;
+    src:url(/Figma/assets/fonts/unineuelight.ttf)
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: rgb(31, 31, 48);
+    border: 1px solid yellow;
+}
+.honor{
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    font-family: GULAG;
+    color: white;
+    text-align: center;
+}
+.navigation{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    text-align: end;
+    color: white;
+    justify-content: space-around;
+}
+.image{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    width: 650px;
+    height: 650px;
+    
+}
+.smart{
+    font-family: Intro;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    color: white;
+    text-align:start;
+    padding: 30px;
+    margin: 0;
+}
+.elements{
+    font-family: Inin;  
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    font-size: larger;
+    color: pink;
+    text-align:start;
+    padding: 30px;
+    margin: 0;
+}
+.text{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    color: white;
+    text-align:start;
+    padding: 30px;
+    margin: 0;
+}
+.img1{
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+.img2{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3; 
+}
